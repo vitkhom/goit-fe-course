@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+}
+
+.header {
+    padding-top: 77px;
+    padding-bottom: 104px;
+}
+
+.container {
+    width: 901px;
+    margin: 0 auto;
+}
+
+.header__list {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header__list-item {
+    display: inline-block;
+    margin-right: 65px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header__list-item-last {
+    margin-right: 0px;
+}
+
+.header__list-link {
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: rgb(98, 98, 98);
+}
+
+.header__list-link:hover {
+    color: rgb(3, 169, 244);
+}
+
+main {
+    padding-top: 0px;
+    padding-bottom: 72px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.main__section {
+    width: 901px;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.main__section-last {
+    margin-bottom: 60px;
+}
+
+.main__list {
+    width: 901px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0px;
+}
+
+.main__list-item {
+    display: inline-block;
+    width: 420px;
+    text-align: left;
+    font-size: 14px;
+    margin-right: 61px;
+}
+
+.main__list-item-last {
+    margin-right: 0;
+}
+
+.main__article-photo {
+    margin-bottom: 32px;
+}
+
+.main__photo-subtitle {
+    font-family: "Ubuntu", sans-serif;
+    color: rgb(180, 173, 158);
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.main__article-title {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 35px;
+}
+
+.main__article-description {
+    line-height: 24px;
+}
+
+.main__btn {
+    display: block;
+    font-family: "Playfair Display", serif;
+    color: rgb(98, 98, 98);
+    font-size: 20px;
+    width: 164px;
+    height: 60px;
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    background-color: transparent;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
