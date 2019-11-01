@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+.header {
+    padding-top: 38px;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.logotype {
+    float: left;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #555252;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+
+h1::first-letter {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.header__list {
+    float: right
+}
+
+.header__list-item {
+    display: inline;
+    margin-right: 40px;
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0f0101;
+    line-height: 11px;
+}
+
+.header__list-item:last-child {
+    margin-right: 0px;
+}
+
+.header__list-link {
+    color: #0f0101;
+}
+
+.header__list-link:hover {
+    color: #1abc9c;
+}
+
+.main__section1 {
+    padding-top: 106px;
+    padding-bottom: 75px;
+    
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #555252;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2::after {
+    display: block;
+    content: "";
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 92px;
+}
+
+.main__product-list-item {
+    float: left;
+    width: 255px;
+    height: 322px;
+    background-color: #323232;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.main__product-list-item:nth-child(4) {
+    margin-right: 0px;
+}
+
+.main__product-list-item:nth-child(8) {
+    margin-right: 0px;
+}
+
+.main__product-img {
+    text-align: center;
+    background-position: center;
+    background-color: #e9f0fd;
+}
+
+.main__product-button {
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    width: 255px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    background-position: bottom;
+}
+
+.main__product-title {
+    width: 201px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    float: left;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 4px;
+}
+
+.main__product-list-item:hover {
+    background-color: #1abc9c;
+}
+
+.main__product-price {
+    width: 54px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: linear-gradient(#ffffff70, #ffffff70);
+    text-align: center;
+    float: right;
+    padding-top: 4px;
+}
+
+.main__newslist-item {
+    width: 350px;
+    height: 496px;
+    float: left;
+    margin-right: 30px;
+}
+
+.main__newslist-item:last-child {
+    margin-right: 0px;
+}
+
+.main__news-image {
+    padding-bottom: 16px;
+}
+
+.news__title {
+    font-family: "OpenSans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.news__title:after {
+    display: block;
+    content: "";
+    width: 136px;
+    height: 3px;
+    background-color: #1abc9c;
+    margin-top: 12px;
+    margin-bottom: 28px;
+}
+
+.news__description {
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 18px;
+}
+
+.news__button {
+    display: block;
+    width: 160px;
+    height: 50px;
+    border: transparent;
+    border-radius: 3px;
+    background-color: #1abc9c;
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 80px;
+}
