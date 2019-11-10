@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+header {
+    padding-top: 38px;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.logotype {
+    float: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #555252;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+
+.logotype::first-letter {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.header__list {
+    float: right
+}
+
+.header__list-item {
+    display: inline;
+    margin-right: 34px;
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0f0101;
+    line-height: 11px;
+}
+
+.header__list-item:last-child {
+    margin-right: 0px;
+}
+
+.header__list-link {
+    color: #0f0101;
+}
+
+.header__list-link:hover {
+    color: #1abc9c;
+}
+
+
+.slider-wrapper {
+    margin-top: 32px;
+    background-image: linear-gradient(rgba(0, 0, 0, .52), rgba(0, 0, 0, .52)), url(../img/slide4.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.slider {
+    margin: 0 auto;
+    height: 602px;
+    width: 1110px;
+    position: relative
+}
+
+.slider__content {
+    position: absolute;
+    top: 209px;
+    left: 186px;
+}
+
+.slider__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    line-height: 82px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+  
+.slider__subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 54px;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.slider__btns {
+    position: absolute;
+    top: 226px;
+    width: 100%;
+}
+
+.slider__btn {
+    width: 105px;
+    height: 105px;
+    border: none;
+    background: #1abc9c;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider__btn:first-child {
+    background-image: url(../img/btn_left.png);
+    float: left;
+    opacity: .65;
+}
+
+.slider__btn:last-child {
+    background-image: url(../img/btn_right.png);
+    float: right;
+}
+
+.collection {
+    margin: 0 auto;
+    height: 678px;
+    background-color: #e9f0fd;
+}
+
+.collection__list {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.collection__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 38px;
+    color: #555252;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.collection__title:after {
+    display: block;
+    content: "";
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 92px;
+}
+
+.collection__list-item {
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+
+.collection__list-item:last-child {
+    margin-right: 0px;
+}
+
+.product-button {
+    font-family: "Roboto", sans-serif;
+    width: 255px;
+    height: 40px;
+    border: none;
+    background-color: #323232;;
+    position: absolute;
+    bottom: 0px;
+}
+
+.product-title {
+    width: 201px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    float: left;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 4px;
+}
+
+.product-price {
+    width: 54px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: linear-gradient(#ffffff70, #ffffff70);
+    text-align: center;
+    float: right;
+    padding-top: 4px;
+}
+
+.collection__list-item:hover .product-button {
+    background-color: #1abc9c;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 282px;
+    border: solid 10px rgb(255, 255, 255);
+    background-color: #0000008c;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay__list {
+    position: absolute;
+    top: 80px;
+    left: 36px;
+}
+  
+.overlay__list-item {
+    float: left;
+    margin-right: 11px;
+}
+
+.overlay__list-item:hover {
+    background-color: #1abc9c;
+}
+
+.overlay__list-item:last-child {
+    margin-right: 0px;
+}
+
+.overlay__list-link {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay__list-item:first-child .overlay__list-link {
+    background-image: url("../img/icons/btn1.png");
+}
+
+.overlay__list-item:nth-child(2) .overlay__list-link {
+    background-image: url("../img/icons/btn2.png");
+}
+
+.overlay__list-item:last-child .overlay__list-link {
+    background-image: url("../img/icons/btn3.png");
+}
+
+.overlay__btn {
+    display: block;
+    width: 164px;
+    height: 48px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    bottom: 76px;
+    left: 36px;
+    background: #323232;
+    position: absolute;
+}
+
+.overlay__btn:hover {
+    background-color: #1abc9c;
+}
+
+.overlay__btn-img {
+    float: left;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay__btn-img {
+    background-image: url("../img/icons/btn4.png");
+}
+
+.overlay__btn-content {
+    width: 114px;
+    height: 48px;
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    float: right;
+    padding-top: 8px;
+}
+
+.collection__list-item:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.copyright {
+    height: 88px;
+    margin: 0 auto;
+    background-color: #323232;
+}
+
+.copyright__text {
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.copyright__link {
+    color: #46bfa9;
+}

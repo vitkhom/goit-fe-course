@@ -156,7 +156,7 @@ h2::after {
     padding-top: 4px;
 }
 
-.main__product-list-item:hover {
+.main__product-list-item:hover .main__product-button{
     background-color: #1abc9c;
 }
 
