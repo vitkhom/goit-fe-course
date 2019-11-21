@@ -166,7 +166,7 @@ header {
     text-transform: uppercase;
     color: #333333;
     margin-bottom: 15px;
-    margin-left: 82px;
+    padding-left: 82px;
 }
 
 .list-item__description {
@@ -213,7 +213,7 @@ header {
     margin: 0 auto;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
-    line-height: 24ph;
+    line-height: 24px;
     color: #999999;
     text-align: center;
     width: 941px;
