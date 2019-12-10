@@ -231,6 +231,7 @@ img {
 }
 
 .section__img-subtitle {
+    margin: 0 auto;
     width: 218px;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -339,10 +340,6 @@ img {
 @media (min-width: 1200px) {
     .header {
         background-image: url(../img/background.png);
-    }
-
-    .section__img-subtitle {
-        margin: 0 auto;
     }
 
     .section__btn-wrapper {
