@@ -1,0 +1,73 @@
+.copyright {
+    margin: 0 auto;
+    width: 75rem;
+    height: 3.875rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-top: 0.0625rem solid #e5e5e5;
+
+    &__text {
+        font-family: "Montserrat", sans-serif;
+        font-size: 0.875rem;
+        line-height: normal;
+        color: #333333;
+    }
+
+    &__link {
+        font-family: "Montserrat", sans-serif;
+        font-size: 0.875rem;
+        line-height: normal;
+        color: $main-color;
+    }
+
+    &__form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 23.75rem;
+        height: 2.5rem;
+
+        &-input {
+            width: 100%;
+            border: 0.0625rem solid #e7e7e7;
+            font-family: "Roboto", sans-serif;
+            font-size: 0.9375rem;
+            font-style: italic;
+            line-height: 1.5rem;
+            text-align: left;
+
+            &::placeholder {
+                font-family: "Roboto", sans-serif;
+                font-size: 15px;
+                font-style: italic;
+                line-height: 24px;
+                text-align: left;
+                color: #cccccc;
+                transform: translateX(12px);
+            }
+        }
+    }
+
+    &__btn {
+        width: 9.375rem;
+        height: 2.5rem;
+        background-color: $third-color;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 0.875rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        cursor: pointer;
+    }
+}
